@@ -1,0 +1,28 @@
+git config --global core.editor code
+git config --global --edit
+
+[push]
+	followTags = true
+[alias]
+	s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+	amend = !git add --all && git commit --amend --no-edit
+	p = !git push origin
+	count = !git shortlog -s --grep
+
+
+// amend => adicionar item ao commit anterior
+
+// count => estatística
+  git count test
+  git count feat
+  git count fix
+  git count chore
+  git count docs
+
+// followTags
+  git tag "1.0"
+  git tag
+  // marca release
+  git tag -a "1.0.1" -m "1.0.1"
