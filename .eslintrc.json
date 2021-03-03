@@ -3,7 +3,7 @@
   "parserOptions": {
     "project": "tsconfig.json",
     "tsconfigRootDir": "__dirname",
-    "sourceType": "module",
+    "sourceType": "module"
   },
   "rules": {
     "@typescript-eslint/consistent-type-definitions": "off",

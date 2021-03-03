@@ -1,3 +1,4 @@
 https://www.conventionalcommits.org/en/v1.0.0/
 
 2. Login - Domain e Data Layer
+  3. Testando casos de erro
